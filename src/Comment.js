@@ -6,7 +6,7 @@ class Comment extends React.Component{
     render(){
         return(
             <div>
-                <Paper>
+                <Paper className={"comment"}>
                     <Typography variant="p" component="p">
                       {this.props.data.body}
                     </Typography>

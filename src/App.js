@@ -26,7 +26,7 @@ class App extends React.Component{
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
                 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
                 <h1 id={"title"}>Fergal's Post App</h1>
-                {this.state.postData ? this.state.postData.map(data => <Posts data={data}/>): <CircularProgress/>}
+                {this.state.postData ? this.state.postData.map(data => <Posts data={data}/>):<CircularProgress/>}
             </div>
         );
     }
